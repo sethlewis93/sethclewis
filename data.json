@@ -1,0 +1,49 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Random Quote Generator", 
+            "description": "Display random quote from library of quotation objects",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://sethlewis93.github.io/Random-Quote-Generator/",
+            "github_link": "https://github.com/sethlewis93/Random-Quote-Generator",
+            "image_urls": "images/rand_quote"
+        }, 
+        {
+            "id": 1,
+            "project_name": "List Pagination and Filtering", 
+            "description": "Page displays max 10 names and includes navigation system allowing users to filter through directory",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://sethlewis93.github.io/List-Pagination-and-Filtering/",
+            "github_link": "https://github.com/sethlewis93/List-Pagination-and-Filtering",
+            "image_urls": "images/pagination"
+        }, 
+        {
+            "id": 2,
+            "project_name": "Interactice Web Form", 
+            "description": "Uses JavaScript to validate user input on a web form",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://sethlewis93.github.io/Interactive-Web-Form/",
+            "github_link": "https://github.com/sethlewis93/Interactive-Web-Form",
+            "image_urls": "images/web_form"
+        }, 
+        {
+            "id": 3,
+            "project_name": "Phrase Hunter", 
+            "description": "Browser-based version of the game 'Phrase Hunter' developed with OOP principles",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://sethlewis93.github.io/Phrase-Hunter-Game-App/",
+            "github_link": "https://github.com/sethlewis93/Phrase-Hunter-Game-App",
+            "image_urls": "images/phrase_hunt"
+        }, 
+        {
+            "id": 4,
+            "project_name": "Public API Requests", 
+            "description": "Make API request, asynchronously parse data, and dynamically display data.",
+            "technologies": ["HTML", "CSS", "JavaScript", "Git", "Terminal", "HTTP", "AJAX", "Fetch API"],
+            "live_link": "https://sethlewis93.github.io/Public-API-Requests/",
+            "github_link": "https://github.com/sethlewis93/Public-API-Requests",
+            "image_urls": "images/public_api"
+        }
+    ]
+}
