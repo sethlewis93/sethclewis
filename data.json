@@ -7,7 +7,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://sethlewis93.github.io/Random-Quote-Generator/",
             "github_link": "https://github.com/sethlewis93/Random-Quote-Generator",
-            "image_urls": "images/rand_quote"
+            "image_urls": ["images/rand_quote/first_quote_ex.png", "images/rand_quote/second_quote_ex.png"]
         }, 
         {
             "id": 1,
@@ -16,7 +16,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://sethlewis93.github.io/List-Pagination-and-Filtering/",
             "github_link": "https://github.com/sethlewis93/List-Pagination-and-Filtering",
-            "image_urls": "images/pagination"
+            "image_urls": ["images/pagination/first_10.png", "images/pagination/search_results.png"]
         }, 
         {
             "id": 2,
@@ -25,7 +25,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://sethlewis93.github.io/Interactive-Web-Form/",
             "github_link": "https://github.com/sethlewis93/Interactive-Web-Form",
-            "image_urls": "images/web_form"
+            "image_urls": ["images/web_form/blank_form1.png", "images/web_form/blank_form2.png", "images/web_form/incomplete_ex1.png", "images/web_form/incomplete_ex2.png"]
         }, 
         {
             "id": 3,
@@ -34,7 +34,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://sethlewis93.github.io/Phrase-Hunter-Game-App/",
             "github_link": "https://github.com/sethlewis93/Phrase-Hunter-Game-App",
-            "image_urls": "images/phrase_hunt"
+            "image_urls": ["images/phrase_hunt/start.png", "images/phrase_hunt/almost_win.png", "images/phrase_hunt/win.png", "images/phrase_hunt/losing.png", "images/phrase_hunt/lost.png"]
         }, 
         {
             "id": 4,
@@ -43,7 +43,7 @@
             "technologies": ["HTML", "CSS", "JavaScript", "Git", "Terminal", "HTTP", "AJAX", "Fetch API"],
             "live_link": "https://sethlewis93.github.io/Public-API-Requests/",
             "github_link": "https://github.com/sethlewis93/Public-API-Requests",
-            "image_urls": "images/public_api"
+            "image_urls": ["images/public_api/directory.png", "images/public_api/search.png"]
         }
     ]
 }
