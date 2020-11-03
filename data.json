@@ -20,7 +20,7 @@
         }, 
         {
             "id": 2,
-            "project_name": "Interactice Web Form", 
+            "project_name": "Interactive Web Form", 
             "description": "Uses JavaScript to validate user input on a web form",
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://sethlewis93.github.io/Interactive-Web-Form/",
