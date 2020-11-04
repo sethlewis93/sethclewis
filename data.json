@@ -40,7 +40,7 @@
             "id": 4,
             "project_name": "Public API Requests", 
             "description": "Make API request, asynchronously parse data, and dynamically display data.",
-            "technologies": ["HTML", "CSS", "JavaScript", "Git", "Terminal", "HTTP", "AJAX", "Fetch API"],
+            "technologies": ["HTML", "CSS", "JavaScript", "Git", "Mac OS Terminal", "HTTP", "AJAX", "Fetch API"],
             "live_link": "https://sethlewis93.github.io/Public-API-Requests/",
             "github_link": "https://github.com/sethlewis93/Public-API-Requests",
             "image_urls": ["images/public_api/directory.png", "images/public_api/search.png"]
