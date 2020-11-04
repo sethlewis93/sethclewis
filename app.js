@@ -13,12 +13,7 @@ const PORT = 3000;
 app.listen(PORT, () => console.log(`Your server is running on port ${PORT}`));
 
 app.get("/", (req, res) => {
-  let liveLinks = [];
-  for (let i = 0; i < projects.length; i++) {
-    liveLinks += projects[i].live_link;
-    console.log(typeof liveLinks);
-  }
-  res.render("index"), liveLinks;
+  res.render("index"), projects;
 });
 
 app.get("/about", (req, res) => {
