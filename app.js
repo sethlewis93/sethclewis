@@ -19,7 +19,7 @@ app.get("/about", (req, res) => {
 
 app.get("/project/:id", (req, res) => {
   const projectId = req.params.id;
-  const project = projects.find(({ id }) => id === projectId);
+  const project = projects.find(({ id }) => id === +projectId);
   // replace w error message later or research sendStatus MDN
   project ? res.render("project", { project }) : res.sendStatus(404);
 });
