@@ -17,6 +17,9 @@ app.get("/about", (req, res) => {
   res.render("about");
 });
 
-app.get("/project", (req, res) => {
-  res.render("project");
+app.get("/project/:id", (req, res) => {
+  const projectId = req.params.id;
+  const project = projects.find(({ id }) => id === projectId);
+  // replace w error message later or research sendStatus MDN
+  project ? res.render("project", { project }) : res.sendStatus(404);
 });
