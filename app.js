@@ -1,9 +1,7 @@
 const express = require("express");
-const bodyParser = require("body-parser");
 const { projects } = require("./data.json");
 const app = express();
 
-// Utilize Pug template rendering
 app.set("view engine", "pug");
 
 const PORT = 3000;
