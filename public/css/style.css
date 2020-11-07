@@ -19,7 +19,7 @@ h1,h2,h3,h4,h5,p{
 
   p{
     font-size: 15px;
-    color: #666;
+    color: #070401;
   }
 
 .round{
@@ -27,7 +27,7 @@ h1,h2,h3,h4,h5,p{
 }
 
 .text-light{
-  color: #666;
+  color: #000000
 }
 
 .button{
@@ -100,7 +100,7 @@ a:hover{
 .portfolio-intro{
   margin: 0;
   padding: 40px 50px 30px;
-}
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);}
 
 .portfolio-intro p{
   border-bottom: 1px solid #eaeaea;
@@ -110,7 +110,7 @@ a:hover{
 .portfolio-index{
   margin: 0;
   padding: 10px 50px;
-}
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);}
 
   .portfolio-index .thumbnail{
     margin-bottom: 5px;
