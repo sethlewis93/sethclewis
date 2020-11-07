@@ -6,7 +6,7 @@ router.get("/", (req, res) => {
   res.render("index", { projects });
 });
 
-router.get('/error', (req, res, next) => {
+router.get("/error", (req, res, next) => {
   const err = new Error();
   err.message = `Sorry! Something went wrong on the server.`;
   err.status = 500;
@@ -16,8 +16,8 @@ router.get('/error', (req, res, next) => {
 router.get("/project/:id", (req, res, next) => {
   const projectId = req.params.id;
   const project = projects.find(({ id }) => id === +projectId);
-  if(project) {
-    res.render("project", { project }) 
+  if (project) {
+    res.render("project", { project });
   } else {
     const err = new Error();
     err.status = 404;
