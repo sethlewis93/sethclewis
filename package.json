@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/sethlewis93/Node-Express-Site.git"
   },
+  "engines": {
+    "node": "12.16.2"
+  },
   "author": "Seth Lewis",
   "license": "MIT",
   "bugs": {
