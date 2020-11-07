@@ -7,7 +7,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://sethlewis93.github.io/Random-Quote-Generator/",
             "github_link": "https://github.com/sethlewis93/Random-Quote-Generator",
-            "image_urls": ["images/rand_quote/first_quote_ex.png", "images/rand_quote/second_quote_ex.png"]
+            "image_urls": ["images/rand_quote/first_quote_ex.png", "images/rand_quote/second_quote_ex.png", "images/rand_quote/third_quote_ex.png"]
         }, 
         {
             "id": 1,
@@ -16,7 +16,7 @@
             "technologies": ["HTML", "CSS", "JavaScript"],
             "live_link": "https://sethlewis93.github.io/List-Pagination-and-Filtering/",
             "github_link": "https://github.com/sethlewis93/List-Pagination-and-Filtering",
-            "image_urls": ["images/pagination/first_10.png", "images/pagination/search_results.png"]
+            "image_urls": ["images/pagination/first_10.png", "images/pagination/search_results.png", "images/pagination/no_results.png"]
         }, 
         {
             "id": 2,
@@ -43,7 +43,7 @@
             "technologies": ["HTML", "CSS", "JavaScript", "Git", "Mac OS Terminal", "HTTP", "AJAX", "Fetch API"],
             "live_link": "https://sethlewis93.github.io/Public-API-Requests/",
             "github_link": "https://github.com/sethlewis93/Public-API-Requests",
-            "image_urls": ["images/public_api/directory.png", "images/public_api/search.png"]
+            "image_urls": ["images/public_api/directory.png", "images/public_api/search.png", "images/public_api/no_results.png"]
         }
     ]
 }

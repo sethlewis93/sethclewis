@@ -104,7 +104,7 @@ a:hover{
 
 .portfolio-intro p{
   border-bottom: 1px solid #eaeaea;
-  padding-bottom: 40px;
+  padding-bottom: 2px;
 }
 
 .portfolio-index{
@@ -146,5 +146,20 @@ a:hover{
 }
 
 .portfolio-bio{
-    line-height: 25px;
+  line-height: 25px;
+}
+
+.portfolio-bio li {
+  font-size: 15px;
+  color: #070401  
+}
+
+.portfolio-bio li:before {
+  content: ' \25B8';
+}
+
+li.no-bullets {
+  list-style-type: none;
+  margin-left: 5px;
+  padding: 0;
 }
