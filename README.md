@@ -4,8 +4,14 @@ FSJS Techdegree Project VI
 
 ## About
 
-Barnyard Ipsum:
+For project six of the FSJS Techdegree I built a basic portfolio website using Node.js as the server-side runtime environment, the Express framework to set up the routes, request/response handlers, middleware, and errors.
 
-Augers oats hen cowpies. Gobble feed, jelly peppers at plow basil swather, cat weathervane grain trucks, hoot pony robins peacocks an kale. Quack hammers eggplant is utters nails garden. Garden windmill chicks, hen at corn in, lettus a peppers. Feed in a woof, a farmers market. Haybine carrots soybeans, owls duck raising or, cheep in plows. Gourds utter.
+This project also utilizes JSON files wherein the data about my portfolio projects is stored, the Pug template engine to render HTML to the browser, and npm to package the third-party dependencies needed for the project.
 
-At welding equipment a oink oink haybine. Onion organic oranges and purr ducks canning owls at a squeal. In the straw rain barrels. Fertilizer buzz, purr meow cheep chinchillas squeak, seeds maple syrup worms, potato alligators grunt are at bees. Coo with rabbits ect. Straw augers beef kettle our crickets. Mallet herbs basil nest, in welding equipment pens quail. In eggplant, quonset is grain bins, grain truck.
+## Exceeds Expectations Criteria
+
+To obtain a grade of "exceeds expectations" I have done the following:
+
+- established the package.json file to fire up the serving using the "npm start" command in the terminal
+- Created two additional pug templates: one to render general errors to HTML and one to render the specific 404 error (error.pug and not-found.pug, respectively)
+- Customized the styles.css file to add personal touch to the pages. I added a liner-gradient function to the profile-intro and profile-index classes giving the page a vibrant back-splash. In the "about" route, I manipulated the margins, font sizes and colors, and the list bullets. Lastly, in each of the routes the text colors have been slightly changed to better coordinate with the back-splash.
