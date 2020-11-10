@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const indexRoute = require("./routes");
 const aboutRoute = require("./routes/about");
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
 app.set("view engine", "pug");
