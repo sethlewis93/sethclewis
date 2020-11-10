@@ -44,6 +44,15 @@
             "live_link": "https://sethlewis93.github.io/Public-API-Requests/",
             "github_link": "https://github.com/sethlewis93/Public-API-Requests",
             "image_urls": ["images/public_api/directory.png", "images/public_api/search.png", "images/public_api/no_results.png"]
+        }, 
+        {
+            "id": 5,
+            "project_name": "Live Global Alexa Skill", 
+            "description": "I contributed to building, testing, and deploying an Alexa Skill for a non-profit missions agency, Live Global (please note - I do not have permission to share the code for the project at this time)",
+            "technologies": ["AWS", "ASK & ASK-CLI", "JSON", "Postman", "S3", "lambda scripts", "SSML"],
+            "live_link": "",
+            "github_link": "",
+            "image_urls": ["images/alexa_lg_skill/LG_skill.png"]
         }
     ]
 }
