@@ -45,8 +45,19 @@
             "github_link": "https://github.com/sethlewis93/Public-API-Requests",
             "image_urls": ["images/public_api/directory.png", "images/public_api/search.png", "images/public_api/no_results.png"]
         }, 
+        
         {
             "id": 5,
+            "project_name": "React Photo Gallery", 
+            "description": "This application is built on Reac leveraging poweful API's & tools like Create React App, Context, React Router, and Hooks. This application uses the built-in Fetch API to request photos from the Flickr API.",
+            "technologies": ["React", "React Router 6", "React Context API", "Create-React-App"],
+            "live_link": "https://sethlewis93.github.io/Photo-Gallery-App/",
+            "github_link": "https://github.com/sethlewis93/Photo-Gallery-App",
+            "image_urls": ["images/react_photo_gallery/searchform.png", "images/react_photo_gallery/bernese_dog_nav.png", "images/react_photo_gallery/coffee_nav.png", "images/react_photo_gallery/computers_nav.png", "images/react_photo_gallery/url_params_search.png"]
+        },
+
+        {
+            "id": 6,
             "project_name": "Live Global Alexa Skill", 
             "description": "I contributed to building, testing, and deploying an Alexa Skill for a non-profit missions agency, Live Global (please note - I do not have permission to share the code for the project at this time)",
             "technologies": ["AWS", "ASK & ASK-CLI", "JSON", "Postman", "S3", "lambda scripts", "SSML"],
