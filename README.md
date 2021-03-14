@@ -1,4 +1,4 @@
-# Static Node/Express Portfolio Site
+# Static Node/Express SL JS Portfolio
 
 FSJS Techdegree Project VI
 
