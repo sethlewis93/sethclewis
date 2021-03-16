@@ -13,7 +13,8 @@ block content
         //- Use interpolation to dynamically add the project description.
         h3= project.description
         br
-        p= `"${project.review_comments}"`
+        h6 | Remarks:
+        p= | `"${project.review_comments}"`
 
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Technologies
