@@ -11,7 +11,9 @@ block content
         h1= project.project_name
 
         //- Use interpolation to dynamically add the project description.
-        p= project.description
+        h3= project.description
+        br
+        p= project.review_comments
 
       .cell.portfolio-meta.small-6.medium-2.large-3
         h6 Technologies
