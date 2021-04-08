@@ -61,9 +61,18 @@
             "github_link": "https://github.com/sethlewis93/Photo-Gallery-App",
             "image_urls": ["images/react_photo_gallery/searchform.png", "images/react_photo_gallery/bernese_dog_nav.png", "images/react_photo_gallery/coffee_nav.png", "images/react_photo_gallery/computers_nav.png", "images/react_photo_gallery/url_params_search.png"]
         },
-
         {
             "id": 6,
+            "project_name": "SQL Libray", 
+            "description": "CRUD web application that manages a collection of library books. It utilizes JavaScript, Node.js, Express, Pug, SQLite and the ORM Sequelize.",
+            "review_comments": "App architecture is looking pro. And your UI is fantastic. All in all, exemplary work!",
+            "technologies": ["Sequelize", "Express", "Node", "Pug", "SQlite"],
+            "live_link": "https://github.com/sethlewis93/sql-library",
+            "github_link": "https://github.com/sethlewis93/sql-library",
+            "image_urls": ["images/sql_library/home.png", "images/sql_library/create.png", "images/sql_library/update-delete.png"]
+        },
+        {
+            "id": 7,
             "project_name": "Live Global Alexa Skill", 
             "description": "I contributed to building, testing, and deploying an Alexa Skill for a non-profit missions agency, Live Global (please note - I do not have permission to share the code for the project at this time)",
             "technologies": ["AWS", "ASK & ASK-CLI", "JSON", "Postman", "S3", "lambda scripts", "SSML"],
