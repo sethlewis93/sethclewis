@@ -61,7 +61,7 @@
     },
     {
       "id": 4,
-      "project_name": "Public API Requests",
+      "project_name": "API Fetch and Parse",
       "description": "Make API request, asynchronously parse data, and dynamically display data.",
       "review_comments": "Great work! I took a different approach (adding and remove the data vs. adding and removing the container) and I actually like this a bit better.",
       "technologies": [
@@ -85,7 +85,7 @@
 
     {
       "id": 5,
-      "project_name": "React Photo Gallery",
+      "project_name": "Photo Gallery",
       "description": "This application is built on Reac leveraging poweful API's & tools like Create React App, Context, React Router, and Hooks. This application uses the built-in Fetch API to request photos from the Flickr API. Users are greeted with four rendered pages when the app loads. They can view picutes in the '/' route or they can use the navigation links to view those rendered components. Users can also search for photos either through the search input field or by entering a query into the url after the '/' character.",
       "review_comments": "Well done! Your React Flickr Gallery project is impressive. You clearly know your way around React! Components look good and well reasoned. Nice work breaking the app into smaller reusable sections. Routes look good and function well. Nice work wiring up those routes. ",
       "technologies": [
@@ -106,7 +106,7 @@
     },
     {
       "id": 6,
-      "project_name": "SQL Libray",
+      "project_name": "Library/Book Shop",
       "description": "CRUD web application that manages a collection of library books. It utilizes JavaScript, Node.js, Express, Pug, SQLite and the ORM Sequelize.",
       "review_comments": "App architecture is looking pro. And your UI is fantastic. All in all, exemplary work!",
       "technologies": ["Sequelize", "Express", "Node", "Pug", "SQlite"],
@@ -120,7 +120,7 @@
     },
     {
       "id": 7,
-      "project_name": "Full Stack Course Directory",
+      "project_name": "Course Directory",
       "description": "The full stack application allows users to administer a school database containing information about courses: users can interact with the database by retrieving a list of courses, viewing detail for a specific course, as well as creating, updating and deleting courses in the database. In addition, users are required to create an account and sign in to make changes to the database.",
       "review_comments": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       "technologies": [
@@ -145,7 +145,7 @@
     {
       "id": 8,
       "project_name": "Live Global Alexa Skill",
-      "description": "I contributed to building, testing, and deploying an Alexa Skill for a non-profit missions agency, Live Global (please note - I do not have permission to share the code for the project at this time)",
+      "description": "Published Amazon Alexa Skill for a non-profit agency, Live Global",
       "technologies": [
         "AWS",
         "ASK & ASK-CLI",
