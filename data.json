@@ -49,7 +49,7 @@
       "description": "Browser-based version of the game 'Phrase Hunter' developed with OOP principles",
       "review_comments": "Overall, your code is extremely legible, and concise, containing very fluid logic as you let your clean code do the talking! It was really refreshing to review your scripts, and I can't wait to see your future work! ",
       "technologies": ["HTML", "CSS", "JavaScript"],
-      "live_link": "https://sethlewis93.github.io/Phrase-Hunter-Game-App/",
+      "live_link": "#",
       "github_link": "https://github.com/sethlewis93/Phrase-Hunter-Game-App",
       "image_urls": [
         "images/phrase_hunt/start.png",
@@ -74,7 +74,7 @@
         "AJAX",
         "Fetch API"
       ],
-      "live_link": "https://sethlewis93.github.io/Public-API-Requests/",
+      "live_link": "#",
       "github_link": "https://github.com/sethlewis93/Public-API-Requests",
       "image_urls": [
         "images/public_api/directory.png",
@@ -95,7 +95,7 @@
         "Create-React-App"
       ],
       "live_link": "https://sethlewis93.github.io/Photo-Gallery-App/",
-      "github_link": "https://github.com/sethlewis93/Photo-Gallery-App",
+      "github_link": "#",
       "image_urls": [
         "images/react_photo_gallery/searchform.png",
         "images/react_photo_gallery/bernese_dog_nav.png",
@@ -110,7 +110,7 @@
       "description": "CRUD web application that manages a collection of library books. It utilizes JavaScript, Node.js, Express, Pug, SQLite and the ORM Sequelize.",
       "review_comments": "App architecture is looking pro. And your UI is fantastic. All in all, exemplary work!",
       "technologies": ["Sequelize", "Express", "Node", "Pug", "SQlite"],
-      "live_link": "https://github.com/sethlewis93/sql-library",
+      "live_link": "#",
       "github_link": "https://github.com/sethlewis93/sql-library",
       "image_urls": [
         "images/sql_library/home.png",
@@ -132,7 +132,7 @@
         "React Router",
         "React Context API"
       ],
-      "live_link": "https://github.com/sethlewis93/full-stack-courses-app-SERN",
+      "live_link": "#",
       "github_link": "https://github.com/sethlewis93/full-stack-courses-app-SERN",
       "image_urls": [
         "images/full-stack-courses-app/courses-page.png",
@@ -155,8 +155,6 @@
         "lambda scripts",
         "SSML"
       ],
-      "live_link": "",
-      "github_link": "",
       "image_urls": ["images/alexa_lg_skill/LG_skill.png"]
     }
   ]
