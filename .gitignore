@@ -1,2 +1,4 @@
 node_modules/
 mockups/
+views/hidden.pug
+production-data.json
