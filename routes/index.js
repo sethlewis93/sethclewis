@@ -1,9 +1,10 @@
 const express = require("express");
 const router = express.Router();
 const { projects } = require("../data.json");
+const { production } = require("../production-data.json");
 
 router.get("/", (req, res) => {
-  res.render("index", { projects });
+  res.render("index", { projects }, { production });
 });
 
 router.get("/error", (req, res, next) => {
@@ -26,11 +27,11 @@ router.get("/project/:id", (req, res, next) => {
 });
 
 
-router.get("/product/:id", (req, res, next) => {
-  const productId = req.params.id;
-  const product = products.find(({ id }) => id === +productId);
-  if (product) {
-    res.render("product", { product });
+router.get("/production/:id", (req, res, next) => {
+  const productionId = req.params.id;
+  const product = production.find(({ id }) => id === +productionId);
+  if (production) {
+    res.render("production", { product });
   } else {
     const err = new Error();
     err.status = 404;
