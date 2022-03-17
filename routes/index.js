@@ -4,7 +4,7 @@ const { projects } = require("../data.json");
 const { production } = require("../production-data.json");
 
 router.get("/", (req, res) => {
-  res.render("index", { projects }, { production });
+  res.render("index", { projects, production });
 });
 
 router.get("/error", (req, res, next) => {
