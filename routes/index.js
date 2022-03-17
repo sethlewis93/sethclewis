@@ -25,4 +25,16 @@ router.get("/project/:id", (req, res, next) => {
   }
 });
 
+
+router.get("/product/:id", (req, res, next) => {
+  const productId = req.params.id;
+  const product = products.find(({ id }) => id === +productId);
+  if (product) {
+    res.render("product", { product });
+  } else {
+    const err = new Error();
+    err.status = 404;
+    next(err);
+  }
+});
 module.exports = router;
