@@ -1,0 +1,19 @@
+extends layout.pug
+
+block content 
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-production
+    .grid-x
+      .cell.small-6.medium-9.large-9
+        h1= production.production_name
+        h5= production.description
+        br
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        a.button.expanded(href=`${production.website}`, target="_blank") Visit Site    
+    img.image(src=`/static/${production.image_urls[0]}`)
+    img.image(src=`/static/${production.image_urls[1]}`)
+    img.image(src=`/static/${production.image_urls[2]}`)
+    
+    if production.image_urls[3]
+      img.image(src=`/static/${production.image_urls[3]}`)

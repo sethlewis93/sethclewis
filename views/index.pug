@@ -4,27 +4,27 @@ block content
   article.grid-container.portfolio-intro
     div
 
-      //- Add a title or heading like My Portfolio, or Hey, Potential Employers, or Let's make the web great together! 
       pre
-      h1 Seth&#60;/&#62;Lewis: Full Stack Developer
+      h1 Seth Lewis: Full Stack Developer
 
-      //- Add a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
+      p.lead.text-light
+        | Production Sites
+  article.grid-container.portfolio-index
+    .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
+      each product in production
+        .cell
+          a(href=`/production/${production.id}`)
+            img.thumbnail(src=`/static/${production.image_urls[0]}`)
+            h5= production.website
+
       p.lead.text-light
         | Personal Projects
   article.grid-container.portfolio-index
-    
     .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
-      //- Use the Pug `each` iterator to create a project img, title and link in the markup for each of the projects you are showcasing.  
-      //- Use a combination of interpolation and template literals as needed to dynamically generate the the routes in the href, as well as the img's src and the projects title.
       each project in projects
         .cell
           a(href=`/project/${project.id}`)
             img.thumbnail(src=`/static/${project.image_urls[0]}`)
             h5= project.project_name
-      //- Here's what the Pug for each project example should look like. 
 
-      //- .cell
-      //-   a(href='#')
-      //-     img.thumbnail(src='https://placehold.it/550x550')
-      //-     h5 Title
       
