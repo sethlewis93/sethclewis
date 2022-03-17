@@ -1,0 +1,40 @@
+{
+  "production": [
+    {
+      "id": 0,
+      "website": "Royal Truck and Equipment, Inc.",
+      "description": "A complete website build for construction truck manufacturer based in PA, USA. Full eCommerce functionality, truck body informational pages, custom forms, mega menus, a help center, truck inventory pages, third-party CRM and Marketing integrations, SEO optomized.",
+      "visit_site": "https://royaltruckandequipment.com/",
+      "image_urls": [
+        "images/rte/rte-home.png",
+        "images/rte/home-trucks-megamenu.png",
+        "images/rte/single-truck-body.png",
+        "images/rte/rte-truck-inventory.png",
+        "images/rte/help-center.png",
+        "images/rte/custom-gravity-forms.png",
+        "images/rte/rte-parts.png"
+      ]
+    },
+    {
+      "id": 1,
+      "website": "Royal Innovative Solutions",
+      "description": "Website for highway construction safety technology company. Product pages, forms, third-party CRM and Marketing integrations, custom animations.",
+      "visit_site": "https://royalinnovativesolutions.com/",
+      "image_urls": ["images/ris/ris-home.png", "images/ris/prod-page.png"]
+    },
+    {
+      "id": 2,
+      "website": "Redfield Farm of Pennsylvania, LLC",
+      "description": "Website for PA-based daylily cultivators. Full checkout functionality, easy to navigate catalogue, SEO-driven content.",
+      "visit_site": "https://redfieldfarmpa.com/",
+      "image_urls": ["images/ris/redfieldfarmpa-shop.png"]
+    },
+    {
+      "id": 3,
+      "website": "The Ketovore Kitchen, LLC",
+      "description": "Website Marylang-based bakery. Full checkout functionality, easy to navigate catalogue, SEO-driven content.",
+      "visit_site": "https://www.ketovorekitchen.com/",
+      "image_urls": ["images/ketovore-kitchen/ketovore-kitchen-home.png"]
+    }
+  ]
+}
