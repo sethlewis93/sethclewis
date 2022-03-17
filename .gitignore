@@ -1,4 +1,6 @@
 node_modules/
 mockups/
 views/hidden.pug
+views/production.pug
 production-data.json
+images/
