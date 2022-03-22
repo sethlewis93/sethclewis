@@ -1,12 +1,16 @@
 const express = require("express");
+const http = require('http');
+const enforce = require('express-sslify');
 const app = express();
 const indexRoute = require("./routes");
 const aboutRoute = require("./routes/about");
 const PORT = process.env.PORT || 3000;
 
-app.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
+http.createServer(app).listen(PORT, () => console.log(`Server is running on port ${PORT}`));
 app.set("view engine", "pug");
 
+// Enforce https ssl for Heroku app
+app.use(enforce.HTTPS({ trustProtoHeader: true }));
 app.use(indexRoute);
 app.use("/about", aboutRoute);
 app.use("/static", express.static("public"));
